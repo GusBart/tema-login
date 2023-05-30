@@ -1,0 +1,22 @@
+@media (max-width: 844px) {
+    body {
+        background-color: var(--preto);
+        margin-top: 5em;
+    }
+    
+    .login {
+        margin: 4% 7%;
+    }
+
+    .login__email {
+        width: 65%;
+    }
+
+    .login__botao {
+        padding: 0 .3em;
+    }
+
+    .rodape__titulo {
+        padding: 1em;
+    }
+}

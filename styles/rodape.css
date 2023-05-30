@@ -1,0 +1,8 @@
+.rodape {
+    background-color: lightgray;
+    padding: .2em;
+}
+
+.rodape__titulo {
+    text-align: center;
+}
