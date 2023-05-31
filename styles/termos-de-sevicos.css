@@ -1,0 +1,10 @@
+.termos__texto {
+    color: var(--branco);
+}
+
+.termos__titulo {
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--branco);
+    padding: 0 0 1em 0;
+}

@@ -1,0 +1,22 @@
+.problema {
+    display: flex;
+    justify-content: end;
+}
+
+.problema__link {
+    background-image: url(../assets/icone-problema.svg);
+    background-repeat: no-repeat;
+    background-size: 9%;
+    background-position: left bottom;
+    padding: 0 .1em .1em 1.5em;
+    color: #B22222;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #B22222;
+}
+
+.problema__link:hover {
+    background-image: url(../assets/icone-problema-hover.svg);
+    color: white;
+    border: 1px solid white;
+}
