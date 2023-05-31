@@ -1,0 +1,63 @@
+.login {
+    text-align: center;
+    padding: 5em 0em;
+    margin: 6.5% 25%;
+    border: 2px solid var(--branco);
+    border-radius: 10px;
+}
+
+.login__titulo {
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--branco);
+    text-transform: uppercase;
+    background-image: url(../assets/mao-ola.gif);
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: 12.8em;
+}
+
+.login__texto {
+    color: var(--branco);
+    font-weight: 500;
+    margin: .5em 17em .5em 0;
+}
+
+.login__email {
+    background-color: transparent;
+    background-image: url(../assets/email.svg);
+    background-repeat: no-repeat;
+    background-position: .5em;
+    background-size: 5%;
+    font-family: var(--fonte-primaria);
+    padding: .5em;
+    border: 2px solid var(--branco);
+    border-radius: 8px;
+    text-align: center;
+    width: 50%;
+    color: var(--branco);
+}
+
+.senha {
+    background-image: url(../assets/senha.svg);
+    margin: 0 0 1em 0;
+}
+
+.login__email::placeholder {
+    color: var(--branco);
+}
+
+.login__botao {
+    margin: 0 1.5em;
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.termos {
+    text-decoration: underline;
+    color: var(--branco);
+}
+
+.termos:hover {
+    color: #0000cd;
+}

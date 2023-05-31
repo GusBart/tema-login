@@ -1,0 +1,23 @@
+@import url(reset.css);
+@import url(styles/tela-login.css);
+@import url(styles/mobile.css);
+@import url(styles/rodape.css);
+@import url(styles/problema.css);
+@import url(styles/termos-de-sevicos.css);
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+    --branco: #FFFFFF;
+    --preto: #000000;
+
+    --fonte-primaria: 'IBM Plex Mono', monospace;
+    --fonte-reporte: 'Kanit', sans-serif;
+}
+
+body {
+    background-image: url(assets/fundo-floresta.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    font-family: var(--fonte-primaria);
+}

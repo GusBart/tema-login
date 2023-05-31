@@ -1,0 +1,32 @@
+@media (max-width: 844px) {
+    body {
+        background-color: var(--preto);
+        margin-top: 5em;
+    }
+    
+    .login {
+        margin: 4% 7%;
+    }
+
+    .login__texto {
+        margin-left: 3.1em;
+    }
+
+    .login__email {
+        width: 65%;
+    }
+
+    .login__botao {
+        margin: 0 .1em;
+    }
+
+    .problema {
+        left: 1%;
+        top: 0%;
+    }
+
+    .problema:hover {
+        transition: none;
+        left: 5%;
+    }
+}
