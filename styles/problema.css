@@ -10,7 +10,15 @@
 
 .problema:hover {
     transition: 1s;
-    left: 80.80%;
+    left: 86.80%;
+}
+
+.titulo-problema {
+    background-image: none;
+}
+
+.texto-problema {
+    margin: .5em 0em .5em 0;
 }
 
 .problema__link {
@@ -20,8 +28,8 @@
     font-weight: 400;
     text-decoration: none;
     text-transform: uppercase;
-    background-color: #ff7878;
-    background-image: linear-gradient(315deg, #ff7878 0%, #ff0000 74%);    
+    background-color: #f8ceec;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
     border: 1px solid none;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -31,7 +39,19 @@
     border-radius: 10px 0 0 10px;
 }
 
-.problema__link:hover {
-    background-color: #ea2027;
-    background-image: linear-gradient(315deg, #ea2027 0%, #ee5a24 74%);
+.plataforma {
+    background-image: url(../assets/plataformas.svg);
+}
+
+.reporte {
+    background-image: url(../assets/caneta-escrevendo.svg);
+    background-size: 7%;
+}
+
+.botao-problema:hover {
+    text-decoration: underline;
+}
+
+.botao-problema:active {
+    color: black;
 }
