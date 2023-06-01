@@ -19,4 +19,14 @@
     .login__botao {
         margin: 0 .1em;
     }
+
+    .problema {
+        left: 1%;
+        top: 0%;
+    }
+
+    .problema:hover {
+        transition: none;
+        left: 5%;
+    }
 }

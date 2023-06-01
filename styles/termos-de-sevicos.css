@@ -1,5 +1,6 @@
 .termos__texto {
     color: var(--branco);
+    margin: 0 1em;
 }
 
 .termos__titulo {

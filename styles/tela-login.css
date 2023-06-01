@@ -11,6 +11,10 @@
     font-weight: 500;
     color: var(--branco);
     text-transform: uppercase;
+    background-image: url(../assets/mao-ola.gif);
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: 12.8em;
 }
 
 .login__texto {

@@ -1,6 +1,8 @@
 .rodape {
+    display: block;
     background-color: lightgray;
     padding: .2em;
+    position: end;
 }
 
 .rodape__titulo {
