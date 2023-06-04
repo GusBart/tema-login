@@ -1,0 +1,9 @@
+.homepage {
+    display: flex;
+    justify-content: space-around;
+    margin: .5em 0 0 0;
+}
+
+.homepage__imagem:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

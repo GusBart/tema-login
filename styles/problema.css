@@ -6,10 +6,10 @@
     left: 96.5%;
     bottom: 5%;
     gap: 10px;
+    transition: .7s;
 }
 
 .problema:hover {
-    transition: 1s;
     left: 86.80%;
 }
 

@@ -1,0 +1,60 @@
+.titulo-criar-conta {
+    background-image: none;
+    padding: .5em 0;
+}
+
+.criar-conta {
+    padding: 1em 0;
+    margin: 2% 10%;
+}
+
+.leia-termos {
+    margin-top: 1em;
+    color: lightgray;
+}
+
+.leia-termos a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+.leia-termos a:hover {
+    color: rgb(88, 190, 253);
+    text-decoration: underline;
+}
+
+.genero {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 1em 0;
+}
+
+.genero__selecionar {
+    color: var(--branco);
+    border: 1px solid var(--branco);
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.genero__texto {
+    margin: 0;
+}
+
+.foto__usuario {
+    background-image: url(../assets/icone-pessoa.svg);
+}
+
+.foto__perfil {
+    background-image: url(../assets/icone-perfil.svg);
+}
+
+.foto__nascimento {
+    background-image: url(../assets/icone-aniversario.svg);
+}
+
+.botao__cadastrar:hover {
+    text-decoration: underline;
+}

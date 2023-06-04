@@ -1,7 +1,7 @@
 .login {
     text-align: center;
     padding: 5em 0em;
-    margin: 6.5% 25%;
+    margin: 6% 25%;
     border: 2px solid var(--branco);
     border-radius: 10px;
 }
@@ -51,13 +51,4 @@
     margin: 0 1.5em;
     color: var(--branco);
     text-decoration: none;
-}
-
-.termos {
-    text-decoration: underline;
-    color: var(--branco);
-}
-
-.termos:hover {
-    color: #0000cd;
 }
