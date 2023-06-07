@@ -1,7 +1,7 @@
 @media (max-width: 844px) {
     body {
         background-color: var(--preto);
-        margin-top: 5em;
+        margin-top: 2em;
     }
     
     .login {
@@ -21,12 +21,15 @@
     }
 
     .problema {
-        left: 1%;
-        top: 0%;
+        right: 0%;
+        transition: none;
     }
 
     .problema:hover {
         transition: none;
-        left: 5%;
+    }
+
+    .genero {
+        flex-direction: column;
     }
 }

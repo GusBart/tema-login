@@ -1,3 +1,9 @@
+.background-criar-conta {
+    background-image: url(../assets/fundo-criar-conta.gif);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
 .titulo-criar-conta {
     background-image: none;
     padding: .5em 0;
@@ -57,4 +63,8 @@
 
 .botao__cadastrar:hover {
     text-decoration: underline;
+}
+
+.teste {
+    margin: .5em 0;
 }
